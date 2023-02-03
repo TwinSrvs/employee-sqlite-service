@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace Assessment.ServiceHandler
 {
-    public class ProfileImageLink<T>
+    public class ProfileImageLink<APIResponse>
     {
         #region FIELDS
 
@@ -14,10 +14,10 @@ namespace Assessment.ServiceHandler
 
         HttpClient _httpClient = new HttpClient();
 
-        public async Task<T> GetProfileImage()
+        public async Task<APIResponse> GetProfileImage()
         {
             var content = await _httpClient.GetStringAsync(ImageAPI);
-            var getImageModel = JsonConvert.DeserializeObject<T>(content);
+            var getImageModel = JsonConvert.DeserializeObject<APIResponse>(content);
             return getImageModel;
         }
     }

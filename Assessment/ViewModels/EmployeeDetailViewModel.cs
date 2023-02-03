@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Assessment.Models;
+using Assessment.ServiceHandler;
 using Xamarin.Forms;
 
 namespace Assessment.ViewModels
@@ -40,8 +41,8 @@ namespace Assessment.ViewModels
                 Phone = viewModel.Phone,
                 Email = viewModel.Email,
                 Department = viewModel.Department,
-                EmployeeId = viewModel.EmployeeId
-            };
+                EmployeeId = viewModel.EmployeeId,
+            };        
         }
 
         #endregion

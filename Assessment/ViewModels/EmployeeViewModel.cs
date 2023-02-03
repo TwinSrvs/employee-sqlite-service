@@ -72,7 +72,17 @@ namespace Assessment.ViewModels
         }
         private string _department;
 
-        public Uri ProfileImageSource { get; set; }
+        public ImageSource ProfileImageSource
+        {
+            get { return _profileImageSource; }
+            set
+            {
+                SetValue(ref _profileImageSource, value);
+            }
+        }
+        private ImageSource _profileImageSource;
+
+        public Employee Employee { get; set; }
 
         #endregion
 
@@ -82,15 +92,16 @@ namespace Assessment.ViewModels
 
         public EmployeeViewModel(Employee employee)
         {
-            Id = employee.Id;
-            _firstName = employee.FirstName;
-            _lastName = employee.LastName;
-            Phone = employee.Phone;
-            Email = employee.Email;
-            Department = employee.Department;
-            EmployeeId = employee.EmployeeId;
-            //ProfileImageSource = new Uri(employee.Url);
+            Employee = employee;
 
+            Id = Employee.Id;
+            FirstName = Employee.FirstName;
+            LastName = Employee.LastName;
+            Phone = Employee.Phone;
+            Email = Employee.Email;
+            Department = Employee.Department;
+            EmployeeId = Employee.EmployeeId;
+            ProfileImageSource = ImageSource.FromUri(new Uri(Employee.Url));
         }
 
         #endregion

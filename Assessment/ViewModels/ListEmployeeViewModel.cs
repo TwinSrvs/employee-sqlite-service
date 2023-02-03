@@ -66,7 +66,12 @@ namespace Assessment.ViewModels
             _isDataLoaded = true;
             var employees = await _employeeLog.GetEmployeesListAsync();
             foreach (var employee in employees)
+            {
+                await employee.PopulateFromResponse();
+
                 Employees.Add(new EmployeeViewModel(employee));
+               
+            }
         }
 
         private async Task AddEmployeeDetails()
