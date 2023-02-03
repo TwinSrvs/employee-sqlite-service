@@ -1,0 +1,16 @@
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/Assessment.csproj.AssemblyReference.cache
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/Assessment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/View/EmployeeDetailPage.xaml.g.cs
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/View/ListEmployeesPage.xaml.g.cs
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/Assessment.AssemblyInfoInputs.cache
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/Assessment.AssemblyInfo.cs
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/Assessment.csproj.CoreCompileInputs.cache
+/Users/twinkle/Projects/Assessment/Assessment/bin/Debug/netstandard2.0/Assessment.deps.json
+/Users/twinkle/Projects/Assessment/Assessment/bin/Debug/netstandard2.0/Assessment.dll
+/Users/twinkle/Projects/Assessment/Assessment/bin/Debug/netstandard2.0/ref/Assessment.dll
+/Users/twinkle/Projects/Assessment/Assessment/bin/Debug/netstandard2.0/Assessment.pdb
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/Assessment.dll
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/ref/Assessment.dll
+/Users/twinkle/Projects/Assessment/Assessment/obj/Debug/netstandard2.0/Assessment.pdb
